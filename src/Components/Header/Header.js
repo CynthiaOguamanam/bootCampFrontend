@@ -18,8 +18,8 @@ const Header = () => {
            <Nav2 to='/'>Home</Nav2>
            <Nav1 to='/about'>About</Nav1>
            <Nav1 to='/more'>Services</Nav1>
-           <Button to='/register'>Book Schedule</Button>
            </Div>
+           <Button to='/register'>Book Schedule</Button>
         </Wrapper>
         {/* <Line></Line> */}
         </Hold>
