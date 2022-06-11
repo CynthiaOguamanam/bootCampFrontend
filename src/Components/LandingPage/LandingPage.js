@@ -709,7 +709,7 @@ const Button4 = styled(Link)`
         width: 200px;
         margin-left: 50px;
         margin-bottom: 150px;
-        margin-left: 200px;
+        margin-left: 70px;
         /* padding-top: 400px; */
 
     }
