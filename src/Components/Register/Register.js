@@ -28,7 +28,7 @@ const SignUp = () => {
 	const onSubmit = handleSubmit(async (value) => {
 		console.log(value);
 		const { username, email, number, message } = value;
-		const url = "https://pehl.herokuapp.com/api/get/getall";
+		const url = "https://pehl.herokuapp.com/api/post";
 		const url2 = "http://localhost:2003/api/post";
 
 
