@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {GiCargoShip} from 'react-icons/gi'
+import {GiCargoShip} from 'react-icons/gi';
 
 
 
@@ -443,12 +443,13 @@ const NewHolder = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 300px;
+        margin-top: 600px;
     }
 
 `;
 const PharmButton = styled.div`
     @media Screen and (max-width: 768px){
+        padding: 10px 10px;
     }
 `;
 const Button3 = styled(Link)`
@@ -605,6 +606,7 @@ const Hold = styled.div`
         /* background-color: #5699AE; */
         flex-direction: column;
         justify-content: center;
+        padding: 40px 5px;
         margin-top:30px;
 
 
@@ -700,11 +702,16 @@ const Button4 = styled(Link)`
   margin-left: 570px;
 
   :hover{
-        cursor: pointer
+        cursor: pointer;
+        margin-left: 200px;
     }
 
     @media screen and (max-width: 768px){
         width: 200px;
+        margin-left: 50px;
+        margin-bottom: 150px;
+        /* padding-top: 400px; */
+
     }
 
 `;
@@ -770,7 +777,7 @@ const Wrap = styled.div`
         justify-content: center;
         align-items: center;
         /* margin-top: 10px; */
-        padding-top: 0;
+        padding-top: 200px;
     }
 
 `;
@@ -784,7 +791,6 @@ const Texts = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-top: 100px;
-    margin-left: 40px;
     color: white;
     h1{
        font-size:55px;
@@ -801,8 +807,9 @@ const Texts = styled.div`
 
 
     @media screen and (max-width: 768px){
+        text-align: left;
         h1{
-            font-size: 25px;
+            font-size: 23px;
         }
     }
 `;
@@ -811,12 +818,11 @@ const Wrap2 = styled.div`
     min-height: 100vh;
     /* background-color: red; */
     @media Screen and (max-width: 768px) {
-       /* display: block; */
        display: flex;
        flex-direction: column;
        justify-content: center;
-       align-items: center;
-       margin-top: 300px;
+       /* align-items: center; */
+       margin-top: 500px;
    };
 `;
 
