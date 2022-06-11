@@ -8,7 +8,8 @@ const FormPage = () => {
 
 	const getData = async() =>{
 		
-	const url = "http://localhost:2003/api/get/getall";
+	const url = "https://pehl.herokuapp.com/api/get/getall";
+	// const url2 = "http://localhost:2003/api/get/getall";
 
 	const res = await axios.get(url)
 	setData(res.data.data)
