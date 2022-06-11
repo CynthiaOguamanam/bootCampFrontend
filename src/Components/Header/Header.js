@@ -34,7 +34,7 @@ export default Header;
 const Container = styled.div`
     width: 100%;
     height: 100px;
-    background-color: transparent;
+    background-color: #5699AE;
     /* background: pink; */
     display: flex;
     justify-content: center;
