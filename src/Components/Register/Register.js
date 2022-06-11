@@ -39,7 +39,7 @@ const SignUp = () => {
 			console.log("Error Data: ", res);
 		});
 
-		navigate("/login");
+		navigate("/");
 	});
 
 	return (
