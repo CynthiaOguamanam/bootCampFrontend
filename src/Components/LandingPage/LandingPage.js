@@ -703,13 +703,13 @@ const Button4 = styled(Link)`
 
   :hover{
         cursor: pointer;
-        margin-left: 200px;
     }
 
     @media screen and (max-width: 768px){
         width: 200px;
         margin-left: 50px;
         margin-bottom: 150px;
+        margin-left: 200px;
         /* padding-top: 400px; */
 
     }
